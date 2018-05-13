@@ -8,45 +8,45 @@
 	<meta name="description" content="Opis"/>
 	<meta name="keywords" content="słowo1, słowo2, słowo3"/>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1"/>
-	
+
 	<link rel="stylesheet" href="style.css"/>
-	
+
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,500,600,700,800|Raleway:100,200,300,400,500,600,700,800|Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	
-	
+
+
 	<style>
 		a:link    	{color:white; background-color:transparent; text-decoration:none}
 		a:visited 	{color:white; background-color:transparent; text-decoration:none}
 		a:hover   	{color:white; background-color:transparent; text-decoration:none}
 		a:active  	{color:white; background-color:transparent; text-decoration:none}
 	</style>
-	
+
 
 		<script src="jquery-1.11.3.min.js"></script>
-	
 
-	
+
+
 	<script>
 		$(document).ready(function() {
 		var NavY = $('#topbar').offset().top;
-		 
+
 		var stickyNav = function(){
 		var ScrollY = $(window).scrollTop();
-			  
-		if (ScrollY > NavY) { 
+
+		if (ScrollY > NavY) {
 			$('#topbar').addClass('sticky');
 		} else {
-			$('#topbar').removeClass('sticky'); 
+			$('#topbar').removeClass('sticky');
 		}
 		};
-		 
+
 		stickyNav();
-		 
+
 		$(window).scroll(function() {
 			stickyNav();
 		});
 		});
-	</script>	
+	</script>
 
 </head>
 
@@ -54,14 +54,14 @@
 <body data-spy="scroll" data-target="#menu">
 
 	<div id="container">
-	
 
-		
+
+
 		<div id="slajd">
-			
+
 			<div id="topbar">
 				<div id="logo" ><a href="#slajd">SAN-MAT</a></div>
-				
+
 				<div id="menu">
 					<a href="#slajd" ><div class="option">STRONA GŁÓWNA</div></a>
 					<a href="#header" ><div class="option">USŁUGI</div></a>
@@ -69,182 +69,182 @@
 					<a href="#kontakt" ><div class="option">KONTAKT</div></a>
 				</div>
 			</div>
-			
+
 			<div style="clear:both;" ></div>
-			
+
 			<div id="motto">SZYBKO-TANIO-SOLIDNIE</div>
-			
+
 			<div style="height: 180px"></div>
-			
-			 
-				<a href="#header"> <div id="arrow"><img src="arrow.png" height="40"/></div> </a> 
-			
-			
+
+
+				<a href="#header"> <div id="arrow"><img src="img/arrow.png" height="40"/></div> </a>
+
+
 		</div>
-		
-		
+
+
 		<div style="margin-top: 70px"></div>
 		<div id="header"> USŁUGI </div>
-		
-		<div id="services1"> 
-			<div class="serviceicon"> 
-				<img src="tap.png" width="110"style="opacity: 0.9"/></br></br>Instalacje wodno-kanalizacyjne </br>
-				<div class="serviceiconbot">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a, ultrices eros sed, sagittis ex. Vivamus eget sodales libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue, suscipit eu suscipit non, eleifend eu justo. 
-				</div>
-			</div>
-			
-			<div class="serviceicon"> 
-				<img src="tool.png" width="110"style="opacity: 0.9"/></br></br>Centralne ogrzewanie </br>
-				<div class="serviceiconbot">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a libero malesuada, ultrices eros sed, sagittis ex. Vivamus eget sodales libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue,  suscipit non, eleifend eu justo. 
-				</div>
-			</div>
-			
-			<div class="serviceicon"> 
-				<img src="solar-panels.png" width="110" style="opacity: 0.9"/></br></br>Kolektory słoneczne </br>
-				<div class="serviceiconbot">
-				Lorem ipsum dolor sit. Quisque a libero malesuada, ultrices eros sed, sagittis ex. Vivamus eget sodales libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue, suscipit eu suscipit non, eleifend eu justo. 
-				</div>
-			</div>
-			
-				<div style="clear:both"></div>
-				
-		</div>	
-		
-		
-		<div id="services2"> 
-		
 
-			<div class="serviceicon"> 
-				<img src="pump.png" width="110"style="opacity: 0.9"/></br></br>Pompy ciepła </br>
+		<div id="services1">
+			<div class="serviceicon">
+				<img src="img/tap.png" width="110"style="opacity: 0.9"/></br></br>Instalacje wodno-kanalizacyjne </br>
 				<div class="serviceiconbot">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a libero malesuada, ultrices eros sed, sagittis ex. Vivamus eget sodales libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue, suscipit eu suscipit non, eleifend. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a, ultrices eros sed, sagittis ex. Vivamus eget sodales libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue, suscipit eu suscipit non, eleifend eu justo.
 				</div>
 			</div>
-			
-			<div class="serviceicon"> 
-				<img src="sign.png" width="110"style="opacity: 0.9"/></br></br> Kotłownie </br>
+
+			<div class="serviceicon">
+				<img src="img/tool.png" width="110"style="opacity: 0.9"/></br></br>Centralne ogrzewanie </br>
 				<div class="serviceiconbot">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a libero malesuada, ultrices eros sed, sagittis ex. Vivamus libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue, suscipit eu suscipit non, eleifend eu justo. 
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a libero malesuada, ultrices eros sed, sagittis ex. Vivamus eget sodales libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue,  suscipit non, eleifend eu justo.
 				</div>
 			</div>
-			
-			<div class="serviceicon"> 
-				<img src="oil.png" width="110"style="opacity: 0.9"/></br></br>  Zgrzewanie elektrooporowe </br>
+
+			<div class="serviceicon">
+				<img src="img/solar-panels.png" width="110" style="opacity: 0.9"/></br></br>Kolektory słoneczne </br>
 				<div class="serviceiconbot">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a libero malesuada, ultrices eros sed, sagittis ex. Vivamus eget sodales libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue, suscipit eu suscipit non, eleifend eu justo. 
+				Lorem ipsum dolor sit. Quisque a libero malesuada, ultrices eros sed, sagittis ex. Vivamus eget sodales libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue, suscipit eu suscipit non, eleifend eu justo.
 				</div>
 			</div>
-			
+
+				<div style="clear:both"></div>
+
+		</div>
+
+
+		<div id="services2">
+
+
+			<div class="serviceicon">
+				<img src="img/pump.png" width="110"style="opacity: 0.9"/></br></br>Pompy ciepła </br>
+				<div class="serviceiconbot">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a libero malesuada, ultrices eros sed, sagittis ex. Vivamus eget sodales libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue, suscipit eu suscipit non, eleifend.
+				</div>
+			</div>
+
+			<div class="serviceicon">
+				<img src="img/sign.png" width="110"style="opacity: 0.9"/></br></br> Kotłownie </br>
+				<div class="serviceiconbot">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a libero malesuada, ultrices eros sed, sagittis ex. Vivamus libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue, suscipit eu suscipit non, eleifend eu justo.
+				</div>
+			</div>
+
+			<div class="serviceicon">
+				<img src="img/oil.png" width="110"style="opacity: 0.9"/></br></br>  Zgrzewanie elektrooporowe </br>
+				<div class="serviceiconbot">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque a libero malesuada, ultrices eros sed, sagittis ex. Vivamus eget sodales libero. Ut ultrices odio non ex laoreet convallis. Fusce orci augue, suscipit eu suscipit non, eleifend eu justo.
+				</div>
+			</div>
+
 		</div>
 		<div style="clear:both;"></div></br>
-		
+
 		<div style="width: 83%; height: 80px; float: left" id="onas"></div>	<div id="more">Więcej usług >></div>
 		<div style="clear:both;"></div>
-		
-		
+
+
 		<div id="contactbait">
 			Potrzebujesz konsultacji? &nbsp Zadzwoń: 609 77 14 09
 		</div>
-		
-		
-		
-		
+
+
+
+
 		<div id="crew">
 			<div class="header"> ZAŁOGA </div>
-			
-			<div class="crewicon"> 
-				<img src="crew1.jpg" height="200"/> </br> </br>Jan Kowalski </br>
+
+			<div class="crewicon">
+				<img src="img/crew1.jpg" height="200"/> </br> </br>Jan Kowalski </br>
 				<div class="serviceiconbot">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a volutpat vehicula. Aenean pulvinar, in luctus dignissim, orci nunc vehicula est, et sollicitudin faucibus turpis.
 				</div>
 			</div>
-			
-			<div class="crewicon"> 
-				<img src="crew3.jpg" height="200"/> </br> </br>Marek Cukierberg </br>
+
+			<div class="crewicon">
+				<img src="img/crew3.jpg" height="200"/> </br> </br>Marek Cukierberg </br>
 				<div class="serviceiconbot">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a nibh id mauris volutpat vehicula. Aenean pulvinar, in luctus dignissim, orci nunc vehicula est, et sollicitudin faucibus turpis.
 				</div>
 			</div>
-			
-			<div class="crewicon"> 
-				<img src="crew2.jpg" height="200"/> </br> </br>Adam Nowak </br>
+
+			<div class="crewicon">
+				<img src="img/crew2.jpg" height="200"/> </br> </br>Adam Nowak </br>
 				<div class="serviceiconbot">
 					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a nibh id mauris. Aenean pulvinar, odio in luctus dignissim, orci nunc vehicula est, et sollicitudin ipsum metus faucibus.
 				</div>
 			</div>
-			
+
 		</div>
 		<div style="clear:both;"></div>
-		
-		
-		
+
+
+
 		<div id="courses">
 			<div class="header"> CERTYFIKATY </div>
-			<div class="courseicon"> <img src="certificate2.jpg" height="200" width="270"/></div>
-			<div class="courseicon"> <img src="certificate3.jpg" height="200" width="270"/></div>
-			<div class="courseicon"> <img src="certificate4.jpg" height="200" width="270"/></div>
-			<div class="courseicon"> <img src="certificate5.jpg" height="200" width="270"/></div>
+			<div class="courseicon"> <img src="img/certificate2.jpg" height="200" width="270"/></div>
+			<div class="courseicon"> <img src="img/certificate3.jpg" height="200" width="270"/></div>
+			<div class="courseicon"> <img src="img/certificate4.jpg" height="200" width="270"/></div>
+			<div class="courseicon"> <img src="img/certificate5.jpg" height="200" width="270"/></div>
 			<div style="clear:both;"></div>
 		</div>
-		
+
 		<div id="kontakt" style="height: 80px;"></div>
-		
-		
-		
+
+
+
 		<div id="contact">
 			<div class="header"> KONTAKT </div>
-			
+
 			Masz pytania? Śmiało, skontaktuj się z nami, żeby dowiedzieć się więcej szczegółów.</br>
-			
+
 			<div id="contact-left">
-				
+
 				Imię i nazwisko	</br><textarea type="text" required></textarea></br>
 				Adres e-mail		</br><textarea type="email" required></textarea></br>
 				Temat				</br><textarea type="text" required></textarea></br>
 				Wiadomość		</br><textarea type="message" required rows="5" name="message"></textarea></br>
 				<input type="submit" value="Wyślij">
-			
+
 			</div>
-			
-			
+
+
 			<div id="contact-right">
-			
+
 				USŁUGI HYDRAULICZNE</br> SAN-MAT, Marek Cukierberg</br></br>
-			
-				<div class="contacticon"><img src="cphone.png" height="40"/></div>
+
+				<div class="contacticon"><img src="img/cphone.png" height="40"/></div>
 				<div class="contacttext" style="padding-top:25px">tel.: 609 77 14 09</div>
 				<div style="clear:both;"></div>
-				
-				<div class="contacticon"><img src="cmail.png" height="40"/></div>
+
+				<div class="contacticon"><img src="img/cmail.png" height="40"/></div>
 				<div class="contacttext" style="padding-top:25px"> e-mail: sanmat@poczta.fm</div>
 				<div style="clear:both;"></div>
-				
-				<div class="contacticon"><img src="chouse.png" height="40"/></div>
+
+				<div class="contacticon"><img src="img/chouse.png" height="40"/></div>
 				<div class="contacttext"> adres: Wierzbie 4 </br> 46-320 Praszka</div>
 				<div style="clear:both;"></div>
-				
+
 			</div>
-		
+
 			<div style="clear:both;"></div>
-		
-			
+
+
 		</div>
-		
-		
-		
+
+
+
 		<div id="footer">
 			© 2016 SAN-MAT. Wszelkie prawa zastrzeżone. </br>
 			Stworzone przez Caro Cake.
 		</div>
-	
-	</div>
-	
-	
-	
 
-	
+	</div>
+
+
+
+
+
 
 
 

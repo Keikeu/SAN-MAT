@@ -17,7 +17,7 @@ body
 
 #slajd
 {
-	background-image: url("back2.jpg");
+	background-image: url("img/back2.jpg");
 	height: 650px;
 	font-family: 'Raleway', sans-serif;
 	color: white;
@@ -93,7 +93,7 @@ body
 }
 
 
-@-webkit-keyframes mymove 
+@-webkit-keyframes mymove
 {
     from   { opacity: 0; padding-top: 0;}
     to  {  opacity: 1; padding-top: 230px;}
@@ -206,7 +206,7 @@ body
 	font-size: 28px;
 	font-family: 'Lato', sans-serif;
 	letter-spacing: 2px;
-	background-image: url("header.jpg");
+	background-image: url("img/header.jpg");
 	color: white;
 	padding: 50px;
 	padding-right: 170px;
@@ -221,7 +221,7 @@ body
 	padding-left: 5%;
 	padding-right: 5%;
 	padding-top: 50px;
-	background-image: url("crewback2.jpg");
+	background-image: url("img/crewback2.jpg");
 	background-position: center;
 	padding-bottom: 100px;
 	text-align: center;
@@ -277,7 +277,7 @@ body
 
 #kontakt
 {
-	background-image: url("white_wall_hash.png");
+	background-image: url("img/white_wall_hash.png");
 }
 
 
@@ -293,8 +293,7 @@ body
 	text-align: center;
 	letter-spacing: 1px;
 	color: #FFD324;
-	background-image: url("net.png"); 	/* Background pattern from subtlepatterns.com */
-	border: 1px solid red;
+	background-image: url("img/net.png"); 	/* Background pattern from subtlepatterns.com */
 }
 #contact-left
 {
@@ -307,19 +306,17 @@ body
 	margin-bottom: 100px;
 	border-right: 1px solid #404040;
 	color: #DDDDDD;
-	border: 2px solid white;
 }
 #contact-right
 {
 	float: left;
 	text-align: left;
-	font-size: 20px;	
+	font-size: 20px;
 	width: 38%;
 	padding: 20px 5%;
 	margin-top: 80px;
 	margin-bottom: 100px;
 	color: #DDDDDD;
-	border: 2px solid white;
 }
 .contacticon
 {
@@ -390,10 +387,3 @@ input[type=submit]:active
 	color: #999999;
 	padding: 40px;
 }
-
-
-
-
-
-
-
